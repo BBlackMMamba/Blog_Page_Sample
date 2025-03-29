@@ -1,0 +1,44 @@
+@import url('base.css');
+@import url('components.css');
+@import url('typography.css');
+
+
+body {
+  font-family: "Inter", sans-serif;
+  background: fixed;
+    min-height: 100vh;
+    background: linear-gradient(-190deg,
+         #F4EBFF 25%, #D6BBFB 25% 28%,
+         #E9D7FE 28% 31%,
+          #F4EBFF 31% 34%,
+           #ffffff 34%);
+
+    display:grid;
+    grid-template-columns: repeat(8, 1fr);
+    align-items: center;
+    justify-items: center;
+    row-gap: 9.6rem;
+    padding: 9.6rem 0;
+}
+
+
+.header{
+    font-family: inherit;
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-rows: 1fr 1fr ;
+    align-items: center;
+    justify-items: center;
+    row-gap: 2.66rem;
+}
+
+.container{
+    font-family: inherit;
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(3, 38.4rem);
+    grid-template-rows: repeat(3, 58rem);
+    align-items: start;
+    column-gap: 3.2rem;
+    row-gap: 3.2rem;
+}

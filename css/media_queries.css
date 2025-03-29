@@ -1,0 +1,52 @@
+
+@media (max-width: 1250px){
+
+    .container {
+        grid-template-columns: repeat(2, 38.4rem);
+    }
+}
+
+@media (max-width: 850px) {
+
+    html {
+
+        font-size: 60%;
+    }
+
+    .body{
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .container {
+        grid-template-columns: 34.3rem;
+    }
+
+    .card-item:nth-last-child(-n+3) {
+        display: none;
+    }
+   
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .page-title {
+        font-size: 3.6rem;
+        line-height: 4.4rem;
+    }
+
+    .header_text{
+        justify-self: center;
+    }
+
+    .btn {
+       width: 34.3rem;
+       justify-content: center;
+}
+
+}
+

@@ -1,0 +1,67 @@
+/*Header Text*/
+
+.page_name{
+
+font-weight: 500;
+font-size: 1.4rem;
+line-height: 2rem;
+color: var(--color-primary);
+background: var( --color-secondary);
+border-radius: 2rem;
+padding: .4rem 1.2rem;
+
+}
+
+.page_title{
+    
+    font-size: 4.8rem;
+    font-weight: 600;
+    line-height: 6rem;
+    color: var(--color-primary-dark);
+}
+
+.header_text{
+    
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: var(--color-primary);
+}
+
+/*Card Item Text*/
+
+.item-tag{
+    
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: var(--color-primary);
+}
+
+.item-title{
+    
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    color: var(--color-header-font);
+}
+
+.item-text{
+    
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: var(--color-text);
+}
+
+.author,
+.date {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+.author{color: var(--color-header-font);}
+.date {color: var(--color-text);}
+

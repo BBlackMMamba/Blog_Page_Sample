@@ -1,0 +1,114 @@
+/*SEARCH FORM IN HEADER*/
+
+form {
+    position: relative;
+}
+
+form input{
+    width: 32rem;
+    height: 4.8rem;
+    border: 1px var( --color-light-gray);
+    border-radius: .8rem;
+    background: var(--color-white);
+    padding: 1.2rem 4rem;
+}
+
+form input:focus{
+    outline: none;
+}
+
+form input::placeholder{
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: var(--color-text);
+}
+
+form label {
+    position: absolute;
+    top: 50%;
+    left: 1.6rem;
+    transform: translateY(-50%);
+}
+
+/*Card Component*/
+
+.card-item {
+    height: 58rem;
+    display: grid;
+    background-color: var(--color-white);
+    padding: 2.4rem;
+    justify-content: space-between;
+    box-shadow: 0 .4rem 1.6rem rgba(16, 24, 40, 0.15);
+    
+}
+
+.item_photo{
+    width: 33.6rem;
+    height: 24rem;
+    max-width:100%;
+}
+
+.card_text_content{
+    align-content: start;
+}
+
+.item-author{
+    display: grid;
+    grid-template-columns: 4rem 1fr;
+    grid-template-rows: 2;
+    column-gap: 1.2rem;
+    align-self: end;
+}
+
+.item-author img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    grid-row: 1/ span 2;
+}
+
+/*Avatar Backgrounds*/
+
+.ph-1{background-color: #C7B9DA;}
+.ph-2{background-color: #AA9C75;}
+.ph-3{background-color: #D4B5AD;}
+.ph-4{background-color: #ABB677;}
+.ph-5{background-color: #BEA887;}
+.ph-6{background-color: #A2A8CD;}
+.ph-7{background-color: #D1BAA9;}
+.ph-8{background-color: #D1DFC3;}
+.ph-9{background-color: #CFC3A7;}
+
+
+/*LOAD MORE BUTTON*/
+
+.btn {
+
+    background-color: var(--color-primary);
+    grid-column: 1 / -1;
+    justify-self: center;
+    align-content: baseline;
+    color: var(--color-primary);
+    background: var(--color-primary-light);
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+    border:none;
+    outline: none;
+    border-radius: .8rem;
+    cursor: pointer;
+    display: flex;
+    gap: .8rem;
+    padding: 1.2rem 2rem;
+}
+
+.btn:hover{
+    box-shadow: 0 0.1rem .2rem rgba(16, 24, 40, 0.15);
+}
+
+.btn:focus{
+    box-shadow: 0 0 0 rgba(16, 24, 40, 0.15);
+     padding: .9rem 1.8rem;
+}
